@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/uniapp-template-doc/",
   title: "uniapp 快速开发模版",
   description: "uniapp 快速开发模版",
   themeConfig: {
