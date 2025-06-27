@@ -12,7 +12,7 @@ hero:
       link: /guides/start
     - theme: alt
       text: 示例页面
-      link: /examples/examples
+      link: /examples
 
 features:
   - title: 项目规范
