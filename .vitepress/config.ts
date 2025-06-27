@@ -24,6 +24,8 @@ export default defineConfig({
             { text: "项目结构布局", link: "/guides/project-layout.md" },
             { text: "环境变量", link: "/guides/env.md" },
             { text: "开发规范", link: "/guides/standard.md" },
+            { text: "静态资源使用", link: "/guides/static.md" },
+            { text: "UI组件库", link: "/guides/component.md" },
           ],
         },
       ],
