@@ -6,7 +6,9 @@ export default defineConfig({
   title: "uniapp 快速开发模版",
   description: "uniapp 快速开发模版",
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: "local",
+    },
     nav: [
       { text: "首页", link: "/" },
       { text: "开发指南", link: "/guides/start.md" },
@@ -20,35 +22,25 @@ export default defineConfig({
           items: [
             { text: "快速开始", link: "/guides/start.md" },
             { text: "项目结构布局", link: "/guides/project-layout.md" },
+            { text: "环境变量", link: "/guides/env.md" },
+            { text: "开发规范", link: "/guides/standard.md" },
           ],
         },
       ],
-      "/examples/": [
-        {
-          text: "数据筛选",
-          items: [
-            { text: "示例1", link: "/examples/examples.md" },
-            { text: "示例2", link: "/examples" },
-            { text: "示例3", link: "/examples" },
-          ],
-        },
-        {
-          text: "数据展示",
-          items: [
-            { text: "示例1", link: "/markdown-examples" },
-            { text: "示例2", link: "/markdown-examples" },
-            { text: "示例3", link: "/markdown-examples" },
-          ],
-        },
-        {
-          text: "数据录入",
-          items: [
-            { text: "示例1", link: "/markdown-examples" },
-            { text: "示例2", link: "/markdown-examples" },
-            { text: "示例3", link: "/markdown-examples" },
-          ],
-        },
-      ],
+      // "/examples/": [
+      // {
+      //   text: "数据筛选",
+      //   link: "/examples/data-filter.md",
+      // },
+      // {
+      //   text: "数据展示",
+      //   link: "/examples/data-display.md",
+      // },
+      // {
+      //   text: "数据录入",
+      //   link: "/examples/data-input.md",
+      // },
+      // ],
     },
 
     socialLinks: [

@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开发指南
-      link: /guide
+      link: /guides/start
     - theme: alt
       text: 示例页面
-      link: /examples
+      link: /examples/examples
 
 features:
   - title: 项目规范
