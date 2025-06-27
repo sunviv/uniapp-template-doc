@@ -1,0 +1,1 @@
+import{_ as i,c as a,o as t,ag as n}from"./chunks/framework.D-I4qdo3.js";const c=JSON.parse('{"title":"环境变量","description":"","frontmatter":{},"headers":[],"relativePath":"guides/env.md","filePath":"guides/env.md"}'),e={name:"guides/env.md"};function p(l,s,h,k,r,o){return t(),a("div",null,s[0]||(s[0]=[n("",9)]))}const g=i(e,[["render",p]]);export{c as __pageData,g as default};
