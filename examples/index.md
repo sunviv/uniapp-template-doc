@@ -32,16 +32,24 @@ aside: false
     flex-shrink: 0;
     height: 94px;
   }
+  .flex {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+  }
 </style>
 
-<div class="mobile">
-  <div class="mobile-header">
-    <div class="mobile-header-icon"></div>
+<div class="flex">
+  <div class="mobile">
+    <div class="mobile-header">
+      <div class="mobile-header-icon"></div>
+    </div>
+    <div class="mobile-main">
+      <iframe src="https://sunviv.github.io/uniapp-template" />
+    </div>
+    <div class="mobile-footer">
+      <div class="mobile-footer-icon"></div>
+    </div>
   </div>
-  <div class="mobile-main">
-    <iframe src="https://sunviv.github.io/uniapp-template" />
-  </div>
-  <div class="mobile-footer">
-    <div class="mobile-footer-icon"></div>
-  </div>
+  <img src="../assets/doc-code.png" style="width: 200px; height: 200px;" />
 </div>
