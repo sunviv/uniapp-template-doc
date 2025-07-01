@@ -26,6 +26,7 @@ export default defineConfig({
             { text: "开发规范", link: "/guides/standard.md" },
             { text: "静态资源使用", link: "/guides/static.md" },
             { text: "UI组件库", link: "/guides/component.md" },
+            { text: "原子化 CSS", link: "/guides/css.md" },
           ],
         },
       ],
