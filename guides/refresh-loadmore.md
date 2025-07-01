@@ -82,22 +82,34 @@ export default {
 </script>
 ```
 
-**`z-paging`方式实现，无需关注分页逻辑，提供接口即可**
+**`z-paging` 方式实现，无需关注分页逻辑，提供接口即可**
 
 ```vue
 <template>
-  <z-paging ref="pagingRef" v-model="dataList" :fixed="false" auto-show-system-loading @query="queryList">
+  <z-paging
+    ref="pagingRef"
+    v-model="dataList"
+    :fixed="false"
+    auto-show-system-loading
+    @query="queryList"
+  >
+    <view v-for="item in dataList" :key="item.id">{{ item }}</view>
+  </z-paging>
 </template>
 
 <script lang="ts" setup>
-const pagingRef = ref<ZPagingRef> ()
-const dataList = ref<ListItem[]>([])
+const pagingRef = ref<ZPagingRef>();
+const dataList = ref<ListItem[]>([]);
 
 async function queryList(pageNo: number, pageSize: number) {
-  console.log('[ pageNo ] >', pageNo)
-  console.log('[ pageSize ] >', pageSize)
-  const { list } = await apiList({ page: pageNo, pageSize, searchValue: searchValue.value })
-  pagingRef.value?.complete(list)
+  console.log("[ pageNo ] >", pageNo);
+  console.log("[ pageSize ] >", pageSize);
+  const { list } = await apiList({
+    page: pageNo,
+    pageSize,
+    searchValue: searchValue.value,
+  });
+  pagingRef.value?.complete(list);
 }
 </script>
 ```
