@@ -20,13 +20,14 @@ export default defineConfig({
         {
           text: "",
           items: [
-            { text: "快速开始", link: "/guides/start.md" },
+            { text: "开发前准备", link: "/guides/start.md" },
             { text: "项目结构布局", link: "/guides/project-layout.md" },
             { text: "环境变量", link: "/guides/env.md" },
             { text: "开发规范", link: "/guides/standard.md" },
             { text: "静态资源使用", link: "/guides/static.md" },
             { text: "UI组件库", link: "/guides/component.md" },
             { text: "原子化 CSS", link: "/guides/css.md" },
+            { text: "下拉刷新、上拉加载", link: "/guides/refresh-loadmore.md" },
           ],
         },
       ],
