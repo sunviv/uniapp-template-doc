@@ -4,9 +4,6 @@ aside: false
 ---
 
 <style>
-  html {
-    overflow: hidden;
-  }
   .mobile {
     margin: 0 auto;
     width: 430px;
