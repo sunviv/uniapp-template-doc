@@ -31,24 +31,13 @@ export default defineConfig({
           ],
         },
       ],
-      // "/examples/": [
-      // {
-      //   text: "数据筛选",
-      //   link: "/examples/data-filter.md",
-      // },
-      // {
-      //   text: "数据展示",
-      //   link: "/examples/data-display.md",
-      // },
-      // {
-      //   text: "数据录入",
-      //   link: "/examples/data-input.md",
-      // },
-      // ],
     },
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/sunviv/uniapp-template" },
+      {
+        icon: "gitlab",
+        link: "https://gitlab.hivery.cn/template/uniapp-template",
+      },
     ],
   },
 });
