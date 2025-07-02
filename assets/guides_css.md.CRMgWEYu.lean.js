@@ -1,1 +1,0 @@
-import{_ as t,c as r,o,ag as l}from"./chunks/framework.D-I4qdo3.js";const f=JSON.parse('{"title":"原子化 CSS","description":"","frontmatter":{},"headers":[],"relativePath":"guides/css.md","filePath":"guides/css.md"}'),a={name:"guides/css.md"};function s(n,e,i,p,d,c){return o(),r("div",null,e[0]||(e[0]=[l("",13)]))}const u=t(a,[["render",s]]);export{f as __pageData,u as default};
